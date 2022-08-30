@@ -8,7 +8,7 @@ import '../styles/global.scss'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <SessionProvider session={pageProps.session}>
-      <Head><title>ig.news</title></Head>
+      {/* <Head><title>ig.news</title></Head> */}
       <Header />
       <Component {...pageProps} />
     </SessionProvider>
